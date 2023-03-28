@@ -15,8 +15,9 @@
     margin: 12px;
 }
 .blabla-accueil button {
-border-radius:10px;
-position:absolute;
-top:60%;
-left:45%
+    font-size: 18px;
+    border-radius:10px;
+    position:absolute;
+    top:60%;
+    left:45%
 }
