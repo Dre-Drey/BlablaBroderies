@@ -2,7 +2,8 @@
     background-image: url(../assets/Banner.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    background-position: center;
+    height: 80vh;
     text-align: center;
 }
 
