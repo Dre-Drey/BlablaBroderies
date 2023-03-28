@@ -1,0 +1,22 @@
+.blabla-accueil {
+    background-image: url(../assets/Banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    text-align: center;
+}
+
+.blabla-accueil h1 {
+    font-size: 86px;
+    font-family: "Alex Brush";
+    position:absolute;
+    top:30%;
+    left:30%;
+    margin: 12px;
+}
+.blabla-accueil button {
+border-radius:10px;
+position:absolute;
+top:60%;
+left:45%
+}

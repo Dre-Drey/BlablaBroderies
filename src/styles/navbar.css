@@ -1,0 +1,23 @@
+.blabla-navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.blabla-logo {
+    display: flex;
+    font-family: "Alex Brush";
+}
+.blabla-logo img {
+    height: 80px;
+    margin: 12px;
+}
+
+.blabla-navig {
+    display:flex;
+}
+
+.blabla-navig h2 {
+    margin: 12px;
+}
