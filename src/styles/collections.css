@@ -1,4 +1,19 @@
 .blabla-collections {
+    margin:12px;
+}
+.blabla-collections h2{
     font-size: 28px;;
     text-align: center;
+}
+
+.blabla-item {
+    display: flex column;
+    justify-content: space-around;
+    margin:12px;
+    padding:12px;
+}
+
+.blabla-item p {
+    color:grey;
+    line-height: 4px;
 }
