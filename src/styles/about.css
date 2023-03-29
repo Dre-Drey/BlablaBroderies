@@ -1,0 +1,36 @@
+.blabla-about {
+    margin:auto;
+    width:90%;
+    height: 100vh;
+
+}
+.blabla-about h2{
+    font-size: 36px;
+    width:30%;
+    margin:auto;
+    margin-top:24px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #8a8cc0;
+    text-align: center;
+}
+
+.blabla-us {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blabla-entreprise {
+    box-sizing: border-box;
+    width:40%;
+    background-color:#8a8cc0;
+    padding: 15px;
+}
+
+.blabla-personnes {
+    box-sizing: border-box;
+    width:40%;
+    background-color:#8a8cc0;
+    padding: 15px;
+}
+
+

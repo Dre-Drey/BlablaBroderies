@@ -5,6 +5,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "vert",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_islamogauchiste.jpg",
     description:
       "Le modèle des militant.e.s communautaristes ou des universitaires qui détruisent la recherche",
   },
@@ -14,6 +15,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "magenta",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_pognondedingue.jpg",
     description: "Le modèle dont la question est vite répondue",
   },
   {
@@ -22,6 +24,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "bleu",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_quoiquilencoute.jpg",
     description:
       "Le modèle de ceux.celles qui sont au bout mais qui ne lâchent pas l'affaire",
   },
@@ -31,6 +34,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "mandarine",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_lienenbio.jpg",
     description: "Le modèle des entrepreneur.se.s pas encore en burn-out",
   },
   {
@@ -39,6 +43,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "violet",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_non.jpeg",
     description:
       "Le modèle pour toutes les personnes qui galèrent à sortir ces trois petites lettres",
   },
@@ -48,6 +53,7 @@ export const data = [
     tshirtColor: "noir",
     embroideryColor: "jaune",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_misandrie.jpeg",
     description: "Le modèle qui constate",
   },
   {
@@ -56,6 +62,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "rose",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_dontyou.jpeg",
     description: "Le modèle qui répond à ton ex",
   },
   {
@@ -64,6 +71,7 @@ export const data = [
     tshirtColor: "noir",
     embroideryColor: "bleu",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_vu.jpeg",
     description:
       "Le modèle qui fait comprendre à ton interlocuteur qu'on en restera là",
   },
@@ -73,6 +81,7 @@ export const data = [
     tshirtColor: "noir",
     embroideryColor: "bleu ciel",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_desvacances.jpeg",
     description: "Le modèle qui impose son rythme",
   },
   {
@@ -81,6 +90,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "orange",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_laissemoi.jpeg",
     description: "Le modèle qui se projette là où murmurent les cigales",
   },
   {
@@ -89,6 +99,7 @@ export const data = [
     tshirtColor: "blanc",
     embroideryColor: "violet",
     price: "28",
+    coverImg: "../assets/tshirts/tshirt_laroulette.jpeg",
     description: "Le modèle hors-série spécial derby",
   },
   {

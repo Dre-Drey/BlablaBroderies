@@ -10,9 +10,9 @@ export default function Navbar() {
         <h1>Blabla Broderies</h1>
         </div>
         <div className="blabla-navig">
-        <h2>Collections</h2>
-        <h2>Commander</h2>
-        <h2>About</h2>
+        <a><h2>Collections</h2></a>
+        <a><h2>Commander</h2></a>
+        <a><h2>About</h2></a>
         </div>
         </div>
     )
