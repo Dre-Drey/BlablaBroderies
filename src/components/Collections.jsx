@@ -1,18 +1,30 @@
 import React from 'react';
-import collections from '../assets/collections.png'
 import '../styles/collections.css'
+import {data} from '../data/data'
+import Tshirt from './Tshirt'
 
-export default function Collections({punchline, collection, couleur, broderie, prix}) {
+export default function Collections() {
+    const tshirts = data.map((tshirt)=> {
+        return <Tshirt
+        key = {tshirt.id}
+        punchline= {tshirt.punchline}
+        collection = {tshirt.collection}
+        tshirtColor = {tshirt.tshirtColor}
+        embroideryColor = {tshirt.embroideryColor}
+        price = {tshirt.price}
+        coverImg = {tshirt.coverImg}
+        stock = {tshirt.stock}
+        description = {tshirt.description}
+        />
+      })
     return (
-        <div className='blabla-collections'>
-           <h2>Collections</h2>
-           <div className='blabla-item'>
-            <h3>"{punchline}"</h3>
-            <p>Collection : {collection}</p>
-            <p>Couleur du t-shirt :  {couleur}</p>
-            <p>Couleur de la broderie : {broderie}</p>
-            <p>Prix : {prix} euros</p>
-           </div>
+        <>
+        <div className='blabla-collection-display'>
+            <h2>Collections</h2>
+            <div className='blabla-collection'>
+            {tshirts}
+            </div>
         </div>
+        </>
     )
 }
