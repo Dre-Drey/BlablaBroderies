@@ -1,25 +1,31 @@
 .blabla-accueil {
-    background-image: url(../assets/Banner.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 80vh;
-    text-align: center;
+  background-image: url(../assets/Banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .blabla-accueil h1 {
-    font-size: 86px;
-    font-family: "Alex Brush";
-    position:absolute;
-    top:30%;
-    left:30%;
-    margin: 12px;
+  font-size: 86px;
+  font-family: "Alex Brush";
+  margin: auto;
+  margin-bottom: 28px;
+}
+
+.blabla-accueil p {
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 14px;
 }
 .blabla-accueil button {
-    font-size: 18px;
-    border-radius:10px;
-    position:absolute;
-    top:60%;
-    left:45%;
-    padding:12px;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 12px;
 }

@@ -1,9 +1,18 @@
-import React from 'react';
-import '../styles/commander.css';
+import React from "react";
+import "../styles/commander.css";
 
-export default function Commander() {
-    return (
-    <div className='blabla-commander'>
+// Pareil
+// const Commander = () => {
+//     return (
+//         <div className="blabla-commander">
+//             <h2>Commander</h2>
+//         </div>
+//     );
+// };
+const Commander = () => (
+  <div className="blabla-commander">
     <h2>Commander</h2>
-    </div>)
-}
+  </div>
+);
+
+export default Commander;

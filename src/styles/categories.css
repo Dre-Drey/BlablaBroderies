@@ -1,0 +1,17 @@
+.blabla-categories ul {
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    width:90%;
+}
+
+.blabla-categories li {
+    margin:18px;
+    margin-top:28px;
+    font-size: 20px;
+}
+
+.blabla-categories li:hover {
+    color:#8a8cc0;
+    cursor: pointer;
+  }

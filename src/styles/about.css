@@ -1,36 +1,79 @@
 .blabla-about {
-    margin:auto;
-    width:90%;
-    height: 100vh;
-
+  margin: auto;
+  width: 90%;
+  height: 100vh;
 }
-.blabla-about h2{
-    font-size: 36px;
-    width:30%;
-    margin:auto;
-    margin-top:24px;
-    margin-bottom: 24px;
-    border-bottom: 2px solid #8a8cc0;
-    text-align: center;
+.blabla-about h2 {
+  font-size: 36px;
+  width: 30%;
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #8a8cc0;
+  text-align: center;
 }
 
 .blabla-us {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .blabla-entreprise {
-    box-sizing: border-box;
-    width:40%;
-    background-color:#8a8cc0;
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px grey;
+  width: 40%;
+  padding: 15px;
+  border: 1px solid;
+}
+
+.blabla-entreprise h3 {
+  box-shadow: 10px 5px 5px grey;
+  width: 40%;
+  background-color: #8a8cc0;
+  padding: 15px;
+}
+
+.blabla-entreprise-texte p {
+  text-align: center;
 }
 
 .blabla-personnes {
-    box-sizing: border-box;
-    width:40%;
-    background-color:#8a8cc0;
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid;
+  box-shadow: 10px 5px 5px grey;
 }
 
+.blabla-personnes h3 {
+  box-sizing: border-box;
+  box-shadow: 10px 5px 5px grey;
+  width: 40%;
+  background-color: #8a8cc0;
+  padding: 15px;
+}
 
+.blabla-personnes p {
+  text-align: center;
+  /* box-sizing: border-box;
+  box-shadow: 10px 5px 5px grey; */
+  padding: 15px;
+}
+
+.blabla-personnes-pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.blabla-personnes-pictures img {
+  width: 20%;
+  object-fit: contain;
+}

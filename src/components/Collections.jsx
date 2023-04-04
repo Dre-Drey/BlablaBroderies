@@ -1,30 +1,34 @@
-import React from 'react';
-import '../styles/collections.css'
-import {data} from '../data/data'
-import Tshirt from './Tshirt'
+import React from "react";
+import "../styles/collections.css";
+import { data } from "../data/data";
+import { Tshirt } from "./Tshirt";
+import Categories from "./Categories";
+import { useState } from "react";
 
 export default function Collections() {
-    const tshirts = data.map((tshirt)=> {
-        return <Tshirt
-        key = {tshirt.id}
-        punchline= {tshirt.punchline}
-        collection = {tshirt.collection}
-        tshirtColor = {tshirt.tshirtColor}
-        embroideryColor = {tshirt.embroideryColor}
-        price = {tshirt.price}
-        coverImg = {tshirt.coverImg}
-        stock = {tshirt.stock}
-        description = {tshirt.description}
+  const [activeCategory, setActiveCategory] = useState("");
+  const collectionCategory = data.reduce((acc, curr) => {
+    if (acc.includes(curr.collection)) {
+      return acc;
+    }
+    return acc.concat(curr.collection);
+  }, []);
+
+  return (
+    <>
+      <div className="blabla-collection-display">
+        <h2>Collections</h2>
+        <Categories
+          collectionCategory={collectionCategory}
+          setActiveCategory={setActiveCategory}
+          activeCategory={activeCategory}
         />
-      })
-    return (
-        <>
-        <div className='blabla-collection-display'>
-            <h2>Collections</h2>
-            <div className='blabla-collection'>
-            {tshirts}
-            </div>
+        <div className="blabla-collection">
+          {data.map((tshirt) => (
+            <Tshirt key={tshirt.id} tshirt={tshirt} />
+          ))}
         </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
